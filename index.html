@@ -34,16 +34,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item px-2 active">
-                        <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+                        <a class="nav-link link" href="#yo">Sobre mí <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link link" href="#mi-experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link link" href="#mis-trabajos">Trabajos</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
     </nav>
     <main>
         <!-- header -->
-        <header>
+        <header id="yo">
             <div class="nombre text-center align-bottom text-white">
                 <div class="texto">
                     <h2>Yo soy</h2>
@@ -73,8 +73,8 @@
                         <p>Tengo más de 8 años de experiencia laboral desde que comencé como Diseñador freelance y luego como director de arte en una agencia de marketing digital.</p>
                     </div>
                     <div class="col-6">
-                        <p>En el año 2015 inicie el proyecto Soul Graphic Studio, un estudio apasionado por el diseño y dedicado a la creación de productos y soluciones digitales. </p>
-                        <p>Actualmente me desempeño como jefe de Diseño Web Multiplataforma en Mega, desarrollando proyectos difitales para Meganoticias.cl</p>
+                        <p>En el año 2015 inicie el proyecto <a href="https://soulgraphic.studio/" target="_blank" data-toggle="tooltip" data-placement="top" title="Estudio creativo">Soul Graphic Studio</a>, un estudio apasionado por el diseño y dedicado a la creación de productos y soluciones digitales. </p>
+                        <p>Actualmente me desempeño como jefe de Diseño Web Multiplataforma en Mega, desarrollando proyectos difitales para <a href="https://www.meganoticias.cl/" target="_blank" data-toggle="tooltip" data-placement="top" title="Canal de televisión">Meganoticias</a></p>
                     </div>
                 </div>
             </div>
@@ -87,35 +87,53 @@
                         <h2 class="text-center">Mi experiencia</h2>
                         <hr class="mt-5">
                     </div>
-                    <div class="col-4 text-center mb-5">
-                        <span class="align-middle"><i class="fab fa-adobe"></i></span>
-                        <h3 class="mt-3">Creative cloud</h3>
-                        <p>Photoshop, Illustrator, InDesing, XD, Premiere y After Effects</p>
-                    </div>
-                    <div class="col-4 text-center mb-5">
-                        <span><i class="fab fa-html5"></i></span>
-                        <h3 class="mt-3">HTML 5</h3>
-                        <p>Desarrollo de sitios web, app y proyectos digitales</p>
-                    </div>
-                    <div class="col-4 text-center mb-5">
-                        <span><i class="fab fa-css3-alt"></i></span>
-                        <h3 class="mt-3">CSS3</h3>
-                        <p>Conversión de maquetas web en hoja de estilos gráficos</p>
-                    </div>
-                    <div class="col-4 text-center mb-5">
-                        <span><i class="fas fa-chart-line"></i></span>
-                        <h3 class="mt-3">Analítica</h3>
-                        <p>Google Analytics, GTM y Google Data Studio</p>
-                    </div>
-                    <div class="col-4 text-center mb-5">
-                        <span><i class="fas fa-pencil-ruler"></i></span>
-                        <h3 class="mt-3">Diseño gráfico</h3>
-                        <p>Branding, merchandesign y papelería en general</p>
-                    </div>
-                    <div class="col-4 text-center mb-5">
-                        <span><i class="fas fa-search"></i></span>
-                        <h3 class="mt-3">SEO</h3>
-                        <p>Optimización de sitios web para resultados de búsqueda en Google</p>
+                    <div class="carousel-imagenes d-none d-sm-none d-md-block">
+                        <div id="carouselExampleIndicators" class="carousel slide my-5" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-4 text-center mb-5">
+                                        <span class="align-middle"><i class="fab fa-adobe"></i></span>
+                                        <h3 class="mt-3">Creative cloud</h3>
+                                        <p>Photoshop, Illustrator, InDesing, XD, Premiere y After Effects</p>
+                                    </div>
+                                    <div class="col-4 text-center mb-5">
+                                        <span><i class="fab fa-html5"></i></span>
+                                        <h3 class="mt-3">HTML 5</h3>
+                                        <p>Desarrollo de sitios web, app y proyectos digitales</p>
+                                    </div>
+                                    <div class="col-4 text-center mb-5">
+                                        <span><i class="fab fa-css3-alt"></i></span>
+                                        <h3 class="mt-3">CSS3</h3>
+                                        <p>Conversión de maquetas web en hoja de estilos gráficos</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-4 text-center mb-5">
+                                        <span><i class="fas fa-chart-line"></i></span>
+                                        <h3 class="mt-3">Analítica</h3>
+                                        <p>Google Analytics, GTM y Google Data Studio</p>
+                                    </div>
+                                    <div class="col-4 text-center mb-5">
+                                        <span><i class="fas fa-pencil-ruler"></i></span>
+                                        <h3 class="mt-3">Diseño gráfico</h3>
+                                        <p>Branding, merchandesign y papelería en general</p>
+                                    </div>
+                                    <div class="col-4 text-center mb-5">
+                                        <span><i class="fas fa-search"></i></span>
+                                        <h3 class="mt-3">SEO</h3>
+                                        <p>Optimización de sitios web para resultados de búsqueda en Google</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,56 +147,158 @@
                         <hr class="mt-5">
                     </div>
                     <div class="col-4 mb-5">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#trabajo1">
                             <img src="./assets/img/trabajo-1.jpg" class="card-img-top" alt="AN y Tú | Mega">
                             <div class="card-body">
                                 <h5 class="card-title">AN y Tú | Mega</h5>
                                 <p class="card-text">AN y Tú fue un proyecto de Ahora Noticias realizado en el año 2017.</p>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="trabajo1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="trabajo1Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="trabajo1Label">AN y Tú | Mega</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>AN y Tú fue un proyecto de Ahora Noticias realizado en el año 2017 y que consistió en ofrecer una plataforma digital donde los protagonistas fueran las personas. El contenido del sitio web se creaba con la información e historias que enviaban los usuarios a través de un formulario de contacto convirtiéndolo así, en un espacio abierto de opinión con el objetivo de dar una mirada distinta y un enfoque positivo y constructivo.</p>
+                                        <img src="./assets/img/trabajo-01-full.jpg" class="img-fluid" alt="AN y Tú | Mega">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4 mb-5">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#trabajo2">
                             <img src="./assets/img/trabajo-2.png" class="card-img-top" alt="Logofolio 1">
                             <div class="card-body">
                                 <h5 class="card-title">Logofolio 1</h5>
                                 <p class="card-text">Colección de logos creadas y diseñadas para distintos áreas/rubros.</p>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="trabajo2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="trabajo2Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="trabajo2Label">Logofolio 1</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Marcas creadas y diseñadas para distintas áreas/rubros tales como: agencia creativa, abogados, empresa de mudanzas, tienda de mascotas, gestión administrativa, blog de diseño, app de agua potable rural, estudio fotográfico y postproducción de video.</p>
+                                        <img src="./assets/img/trabajo-02-full.jpg" class="img-fluid" alt="AN y Tú | Mega">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4 mb-5">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#trabajo3">
                             <img src="./assets/img/trabajo-3.jpg" class="card-img-top" alt="Presidential Elections| Chile">
                             <div class="card-body">
                                 <h5 class="card-title">Presidential Elections</h5>
                                 <p class="card-text">Diseño y desarrollo web de plataforma de elecciones en ahoranoticias.cl</p>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="trabajo3" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="trabajo3Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="trabajo3Label">Presidential Elections</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Proyecto integral de TV y digital sobre las elecciones presidenciales en Chile en el año 2017.</p>
+                                        <img src="./assets/img/trabajo-03-full.jpg" class="img-fluid" alt="AN y Tú | Mega">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4 mb-5">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#trabajo4">
                             <img src="./assets/img/trabajo-4.jpg" class="card-img-top" alt="Presidential Primaries | Chile">
                             <div class="card-body">
                                 <h5 class="card-title">Presidential Primaries</h5>
                                 <p class="card-text">Diseño y desarrollo web de plataforma de elecciones de primarias.</p>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="trabajo4" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="trabajo4Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="trabajo4Label">Presidential Primaries</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Proyecto integral de TV y digital sobre las elecciones de primarias presidenciales en Chile en el año 2017.</p>
+                                        <img src="./assets/img/trabajo-04-full.jpg" class="img-fluid" alt="AN y Tú | Mega">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4 mb-5">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#trabajo5">
                             <img src="./assets/img/trabajo-5.jpg" class="card-img-top" alt="AR Educativa">
                             <div class="card-body">
                                 <h5 class="card-title">AR Educativa</h5>
                                 <p class="card-text">Diseño de logotipo para proyecto de app dedicada a realidad aumentada.</p>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="trabajo5" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="trabajo5Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="trabajo5Label">AR Educativa</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>AR EDUCATIVA es una empresa pionera en la creación de escenarios de Realidad Aumentada para la educación, así como en la investigación tecnológica de esta plataforma para dispositivos móviles en Chile. Soul Graphic Studio estuvo a cargo de crear, diseñar e implementar la identidad visual.</p>
+                                        <img src="./assets/img/trabajo-05-full.jpg" class="img-fluid" alt="AN y Tú | Mega">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4 mb-5">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#trabajo6">
                             <img src="./assets/img/trabajo-6.png" class="card-img-top" alt="Spley ® | Web">
                             <div class="card-body">
                                 <h5 class="card-title">Spley ® | Web</h5>
                                 <p class="card-text">Diseño de marca y desarrollo de sitio web para staff de abogados spley.cl</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="trabajo6" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="trabajo6Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="trabajo6Label">Spley ® | Web</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Diseño de marca y desarrollo de sitio web para staff de abogados spley.</p>
+                                        <img src="./assets/img/trabajo-06-full.jpg" class="img-fluid" alt="AN y Tú | Mega">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -208,19 +328,22 @@
                 </div>
                 <div class="col-6 text-center">
                     <ul>
-                        <li><a href="https://www.behance.net/ivan_hermosilla" class="_blank"><i class="fab fa-behance-square"></i></a></li>
-                        <li><a href="https://dribbble.com/ivan_hermosilla" class="_blank"><i class="fab fa-dribbble-square"></i></a></li>
-                        <li><a href="https://twitter.com/ivan_hermosilla" class="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ivan-hermosilla/" class="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/ivanhermosillaa" class="_blank"><i class="fab fa-github-square"></i></a></li>
+                        <li><a href="https://www.behance.net/ivan_hermosilla" target="_blank" ><i class="fab fa-behance-square"></i></a></li>
+                        <li><a href="https://dribbble.com/ivan_hermosilla" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
+                        <li><a href="https://twitter.com/ivan_hermosilla" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ivan-hermosilla/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/ivanhermosillaa" target="_blank"><i class="fab fa-github-square"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--jQuery 3.3.1 sin slim-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--Popper JS 1.14.3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <!--Bootstrap JS 4.2.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script src="./assets/js/script.js"></script>
 </body>

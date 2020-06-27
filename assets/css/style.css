@@ -18,6 +18,17 @@ p {
     margin: 1rem 0;
     font-size: 1.2em;
 }
+a:hover {
+    text-decoration: none;
+}
+p a {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+p a:hover {
+    color: var(--black);
+    opacity: 0.75;
+}
 nav {
     background-color: var(--yellow);
     color: var(--black);
@@ -132,6 +143,12 @@ section hr {
     font-size: 4em;
     padding-top: 40px;
 }
+#mi-experiencia  .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--black);
+}
 #mis-trabajos h2 {
     color: var(--black);
 }
@@ -154,6 +171,14 @@ section hr {
     background-color: var(--grey);
     color: var(--black);
     border-radius: 0 0 14px 14px;
+}
+#mis-trabajos .modal-dialog {
+    max-width: 75%;
+    color: var(--black);
+}
+#mis-trabajos .modal-dialog .modal-body,
+#mis-trabajos .modal-dialog .modal-header {
+    padding: 2rem;
 }
 #contacto {
     background-color: var(--yellow);
